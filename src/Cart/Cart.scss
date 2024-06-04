@@ -1,0 +1,39 @@
+.cart{
+    background-color: rgb(7,138,248);
+    font-family: "Radio Canada Big", sans-serif;
+    width: 100%;
+    max-width: 360px;
+    height: 100vh;  
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 100px 20px 20px;
+    display: grid;
+    grid-template-rows: 70% 30%;
+
+    //as dua linha a seguir, é um designer de interação do carrinho
+    transform: translate(118%, 0);
+    transition: all 400ms ease;
+    // o cart--active tambem faz parte deste layout.
+}
+
+.cart--active{
+    transform: translate(0, 0);
+}
+
+.teste{
+    max-height: 500px;
+    flex-grow: 1; //neste codigo ele permite que ocupe todo o espaço permitido, neste caso é 500px
+    overflow: auto;// neste codigo quando o limite ser ultrapassado (500px) ele cria uma barra de rolagem
+}
+
+
+.cartResume{
+
+
+    h2{
+        padding-top: 40px;
+    }
+
+}
+

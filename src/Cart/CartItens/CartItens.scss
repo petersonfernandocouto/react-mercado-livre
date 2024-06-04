@@ -1,0 +1,61 @@
+.LayoutCart {
+    display: grid;
+    grid-template-columns: 23% 70% 7%;
+    align-items: center;
+    position: relative;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+}
+
+.LayoutCart:hover{
+    color: green;
+}
+
+.IMGProduto {
+    width: 100%;
+    max-width: 100%; 
+}
+
+.InfoProduto {
+    padding: 0 10px; 
+
+    h3 {
+        padding-top: 10px;
+        text-align: center;
+        font-size: 13px;
+        font-family: "Radio Canada Big", sans-serif;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    .ValorProduto{
+        padding-bottom: 5px;
+    }
+
+    
+
+}
+
+.CloseButton {
+    width: 100%;
+    position: absolute; 
+    top: 0;
+    right: 0;
+    font-size: 21px;
+    color: white;
+    background-color: black;
+    height: 22px;
+    width: 22px;
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    
+}
+
+.CloseButton:hover {
+    background-color: red;
+    border: none;
+}

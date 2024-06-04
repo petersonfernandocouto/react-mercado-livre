@@ -1,0 +1,38 @@
+.Search-bar {
+    display: flex; // Para alinhar o botão ao lado do input, se desejar
+
+    .Search {
+        border: none;
+        background-color: white;
+        padding: 5px;
+        padding-left: 15px;
+        width: 500px;
+        max-width: 100%;
+        box-sizing: border-box; 
+        font-size: 16px; 
+        border-radius: 8px;
+
+        @media (max-width: 768px) {
+            width: 100%; 
+        }
+
+        &:focus {
+            outline: none; // Remover a borda quando focado
+        }
+    }
+
+    .ButtonSearch{
+        background: none;
+        border: none;
+        font-size: 23px;
+        margin-left: 5px;
+        cursor: pointer;
+        color: white;
+    }
+
+    .ButtonSearch:hover{
+        color: black;
+    }
+
+   
+}
